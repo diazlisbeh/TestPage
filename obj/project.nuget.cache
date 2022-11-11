@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2OHmWcBJZAclSCDNBUsesdbpqEmcSdg0SGXqp7gEEHAwe0VBP6ESX1cAsiRUmtjJIWVGs5fyLvpICKN7d3U4MA==",
+  "success": true,
+  "projectFilePath": "/home/lisbeth/Class/AzureLogicApp/TestPage/TestPage.csproj",
+  "expectedPackageFiles": [
+    "/home/lisbeth/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.7/microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
