@@ -1,4 +1,4 @@
-namespace TestPage.Data;
+namespace TestPage;
 
 public class WeatherForecast
 {

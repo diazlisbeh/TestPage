@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/lisbeth/Class/AzureLogicApp/TestPage/TestPage.csproj": {}
+    "/home/runner/TestPage/TestPage.csproj": {}
   },
   "projects": {
-    "/home/lisbeth/Class/AzureLogicApp/TestPage/TestPage.csproj": {
+    "/home/runner/TestPage/TestPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lisbeth/Class/AzureLogicApp/TestPage/TestPage.csproj",
+        "projectUniqueName": "/home/runner/TestPage/TestPage.csproj",
         "projectName": "TestPage",
-        "projectPath": "/home/lisbeth/Class/AzureLogicApp/TestPage/TestPage.csproj",
-        "packagesPath": "/home/lisbeth/.nuget/packages/",
-        "outputPath": "/home/lisbeth/Class/AzureLogicApp/TestPage/obj/",
+        "projectPath": "/home/runner/TestPage/TestPage.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/TestPage/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lisbeth/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,12 +53,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.7, 6.0.7]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/jsm5am5i2b2izvwzbw5h6lk3plvpkrlw-dotnet-sdk-6.0.100/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
